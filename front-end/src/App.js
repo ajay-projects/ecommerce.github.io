@@ -2,11 +2,12 @@ import Homepage from "./Components/Homepage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Checkout from "./Components/Checkout";
 import Order from "./Components/Order";
+import Main from "./route/Main";
 
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router>
         <Switch>
           <Route exact path="/">
             <Homepage />
@@ -18,8 +19,8 @@ function App() {
           <Order/>
           </Route>
         </Switch>
-      </Router>
-      
+      </Router> */}
+      <Main/>
     </>
   );
 }

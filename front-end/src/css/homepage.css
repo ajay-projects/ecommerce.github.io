@@ -3,8 +3,9 @@ margin: 0;
 box-sizing: border-box;
 }
 #myCarousel{
+margin-top: 14vh;
   width: 100vw;
-  height: auto;
+  height: 86vh;
 }
 #myCarousel .carousel-item .mask {
     position: absolute;
